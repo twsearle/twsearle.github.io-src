@@ -23,13 +23,36 @@ AUTHOR_FEED_RSS = None
 LINKS = (('Pelican', 'http://getpelican.com/'),
          ('Python.org', 'http://python.org/'),
          ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+        )
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+SOCIAL = (('github', 'https://github.com/twsearle'),
+          ('linkedin', 'http://linkedin.com'),)
 
 DEFAULT_PAGINATION = False
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+HEADER_IMAGE = "header_image_viridis.png"
+
+# This thing moves the blog index off the frontpage and into this html file
+INDEX_SAVE_AS = 'blog_index.html'
+
+THEME = "notmyidea"
+
+# Even if you opt to clear the output directory everytime you build, this makes
+# sure we don't loose version control
+OUTPUT_RETENTION = [".git"]
+
+# Not sure exactly how to use this, just in case the dates look odd
+DEFAULT_DATE_FORMAT = '%a %d %B %Y'
+
+# The default for the date, set to fs for filesystem date 
+DEFAULT_DATE = 'fs'
+
+GITHUB_URL='https://github.com/twsearle'
+
+# Get pelican to handle the CNAME file
+STATIC_PATHS = ['images', 'extra/CNAME']
+EXTRA_PATH_METADATA = {'extra/CNAME': {'path': 'CNAME'},}
