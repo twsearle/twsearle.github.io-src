@@ -1,1 +1,7 @@
 pelican installed within conda "website" environment via pip
+
+make html && make serve to view local changes
+
+make publish to actually build a website, however, wont appear on github pages until you commit
+
+*REMEMBER ALWAYS COMMIT to the `submodule` repo first. i.e. do `cd output; git commit -a -m "publish changes"` and _then_ do `cd ../; git commit ...` to commit to the source repository. If you do it the wrong way round you will probably have to re-clone the submodule repo.

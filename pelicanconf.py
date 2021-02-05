@@ -41,6 +41,8 @@ INDEX_SAVE_AS = 'blog_index.html'
 
 THEME = "notmyidea"
 
+DELETE_OUTPUT_DIRECTORY = True
+
 # Even if you opt to clear the output directory everytime you build, this makes
 # sure we don't loose version control
 OUTPUT_RETENTION = [".git"]
