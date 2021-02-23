@@ -10,15 +10,14 @@ About Me
 :URL:
 :save_as: index.html
 
-.. figure:: /images/bald_me.png
+.. figure:: {static}/images/bald_me.jpg
    :alt: My Face
-
-Hi,
+   :width: 160
+   :align: left
 
 This is my personal webpage. I am a scientific software engineer at the
-Met Office with a PhD in the turbulence in complex fluids from the
-University of Edinburgh. (The image above is of a turbulent flow in a
-channel, drawn from my simulations. See my thesis for details)
+Met Office with a PhD in turbulence in complex fluids from the
+University of Edinburgh.
 
 I am a member of ocean forecasting research and development at the Met
 Office. I help provide weather forecasts for the oceans as well as
@@ -30,10 +29,6 @@ for details.
 For more information on what I did during my PhD, check out my
 `supervisors webpage <http://www2.ph.ed.ac.uk/~amorozov/>`__ or the
 `group website <http://www.ph.ed.ac.uk/icmcs>`__.
-
-I received my funding through the `CM-CDT <http://cm-cdt.supa.ac.uk/>`__
-and we have some fun stuff we do
-`here <http://cm-cdt.supa.ac.uk/outreach/index.php>`__.
 
 I am on `github <https://github.com/twsearle>`__ and
 `bitbucket <https://bitbucket.org/tsearle/>`__.
